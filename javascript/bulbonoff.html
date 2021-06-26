@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic ="https://d14nx13ylsx7x8.cloudfront.net/lesson_image_blocks/assets/000/001/412/original/pic_bulboff.gif";
+  } else {
+    pic = "https://d14nx13ylsx7x8.cloudfront.net/lesson_image_blocks/assets/000/001/413/original/pic_bulbon.gif";
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<button type="button" onclick="light(1)">Turn on the light</button>
+<img id="myImage" src="https://d14nx13ylsx7x8.cloudfront.net/lesson_image_blocks/assets/000/001/412/original/pic_bulboff.gif" width="100" height="180">
+<button type="button" onclick="light(0)">Turn off the light</button>
+
+
+</body>
+</html>

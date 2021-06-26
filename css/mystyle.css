@@ -1,0 +1,39 @@
+h1 {
+  color: navy;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+p{
+text-align:left;
+color:red;
+font:sans-serif;
+background-color:yellow;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#para1{
+text-align:left;
+background-color:blue;
+color:white;
+font-family:Georgia;
+}
+
+.center{
+text-align:left;
+color:magenta;
+background-color:brown;
+}
+
+
+*{
+text-align:left;
+background-color:violet;
+
+}
+
+h5,h4{
+text-align:left;
+color:purple;
+background-color:white;
+font-family:Courier New;
+}
